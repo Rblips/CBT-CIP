@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSphere</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to BlogSphere</h1>
+    <div id="user-profile">
+      <p id="welcome-message">Welcome, <span id="username"></span>!</p>
+      <button id="logout">Logout</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="search">
+      <input id="search-bar" type="text" placeholder="Search posts..." />
+    </section>
+
+    <section id="create-post">
+      <h2>Create a New Post</h2>
+      <textarea id="post-content" placeholder="Write your blog post here..."></textarea>
+      <button id="submit-post">Post</button>
+    </section>
+
+    <section id="blog-posts">
+      <h2>Recent Posts</h2>
+      <div id="posts-container">
+        <!-- Posts will appear here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 BlogSphere - Empowering bloggers worldwide</p>
+  </footer>
+</body>
+</html>
